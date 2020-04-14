@@ -1,0 +1,88 @@
+* {
+  font-family: 'Baloo Thambi 2', cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainbox{
+  width: 286px;
+  height: 298px;
+  box-shadow: 0 2px 4px 0 rgba(84, 84, 84, 0.5);
+  border: solid 1px #d1d1d6;
+  background-color: #ffffff;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+
+
+.line {
+  width: 286px;
+  height: 2px;
+  background-color: #7abdb5;
+  position: absolute;
+  top: 29px;
+}
+
+.onboardingimage img{
+  width: 168px;
+  height: 54px;
+  position: absolute;
+  top: 62px;
+  left: 59px;
+  right: 59px;
+}
+
+.smalllogo img{
+  position: absolute;
+  top: 9px;
+  left: 111px;
+  width: 57.8px;
+}
+
+.maintext {
+  width: 254px;
+  height: 100px;
+  font-family: BalooThambi2;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+  position: absolute;
+  top: 140px;
+  left: 16px;
+}
+
+.button {
+  width: 68px;
+  height: 26px;
+  border-radius: 2px;
+  background-color: #388075;
+  position: relative;
+  top: 256px;
+  left: 202px;
+  font-family: BalooThambi2;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  z-index: 2;
+}
+
+a {
+  width: 68px;
+  height: 16px;
+  color: #ffffff;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  z-index: 1;
+  text-decoration: none;
+}

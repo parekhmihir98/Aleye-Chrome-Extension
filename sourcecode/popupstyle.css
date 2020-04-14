@@ -1,0 +1,607 @@
+* {
+  font-family: 'Baloo Thambi 2', cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.mainbox{
+  width: 286px;
+  height: 332px;
+  box-shadow: 0 2px 4px 0 rgba(84, 84, 84, 0.5);
+  border: solid 1px #d1d1d6;
+  background-color: #ffffff;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.smalllogo img{
+  position: absolute;
+  top: 9px;
+  left: 111px;
+  width: 57.8px;
+}
+
+
+.linetop {
+  width: 286px;
+  height: 2px;
+  background-color: #7abdb5;
+  position: absolute;
+  top: 29px;
+}
+
+.linebottom {
+  width: 286px;
+  height: 2px;
+  background-color: #7abdb5;
+  position: absolute;
+  top: 287px;
+}
+
+.notifymeevery {
+  width: 159px;
+  height: 16px;
+  font-family: BalooThambi2;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #333333;
+  position: absolute;
+  top: 55px;
+  left: 16px;
+}
+
+.soundimage img{
+  position: absolute;
+  top: 129.5px;
+  left: 16px;
+  width: 12px;
+}
+
+.timerimage img{
+  position: absolute;
+  top: 182.5px;
+  left: 16px;
+  width: 12px;
+}
+
+.messageimage img{
+  position: absolute;
+  top: 236.5px;
+  left: 16px;
+  width: 12px;
+}
+
+/* Timer menu ---------------------------------------------------------------*/
+
+
+.customSelect {
+  font-family: BalooThambi2;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  position: relative;
+}
+
+.customSelect select{
+  width: 253px;
+  height: 25px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  color: #388075;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  border: 0;
+  padding-left: 8px;
+  background: transparent;
+  appearance: none;
+    -webkit-appearance: none;
+}
+
+.customSelect .select{
+  position: absolute;
+  width: 253px;
+  height: 25px;
+  border-radius: 1px;
+  border: solid 1px #388075;
+  top: 79px;
+  left: 16px;
+}
+
+.customSelect:after{
+  content: 'expand_more';
+  font-family: 'material icons';
+  position: absolute;
+  right: 29px;
+  top: 84px;
+  width: 11.5px;
+  height: 5.8px;
+  font-size: 20px;
+  color: #388075;
+  pointer-events: none;
+}
+
+/* Timer menu end------------------------------------------------------------*/
+
+/* start menu start----------------------------------------------------------*/
+
+.customSelectstart {
+  font-family: BalooThambi2;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  position: relative;
+}
+
+.customSelectstart select{
+  width: 41px;
+  height: 17px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  color: #388075;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  border: 0;
+  padding-left: 6px;
+  background: transparent;
+  appearance: none;
+    -webkit-appearance: none;
+}
+
+.customSelectstart .select{
+  position: absolute;
+  width: 41px;
+  height: 17px;
+  border-radius: 1px;
+  border: solid 1px #388075;
+  top: 312px;
+  left: 80px;
+}
+
+.customSelectstart:after{
+  content: 'expand_more';
+  font-family: 'material icons';
+  position: absolute;
+  right: 165px;
+  top: 316px;
+  width: 11.5px;
+  height: 5.8px;
+  font-size: 12px;
+  color: #388075;
+  pointer-events: none;
+}
+
+/* start menu end------------------------------------------------------------*/
+
+/* end menu start----------------------------------------------------------*/
+
+.customSelectend {
+  font-family: BalooThambi2;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  position: relative;
+}
+
+.customSelectend select{
+  width: 41px;
+  height: 17px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  color: #388075;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  border: 0;
+  padding-left: 6px;
+  background: transparent;
+  appearance: none;
+    -webkit-appearance: none;
+}
+
+.customSelectend .select{
+  position: absolute;
+  width: 41px;
+  height: 17px;
+  border-radius: 1px;
+  border: solid 1px #388075;
+  top: 312px;
+  left: 185px;
+}
+
+.customSelectend:after{
+  content: 'expand_more';
+  font-family: 'material icons';
+  position: absolute;
+  right: 60px;
+  top: 316px;
+  width: 11.5px;
+  height: 5.8px;
+  font-size: 12px;
+  color: #388075;
+  pointer-events: none;
+}
+
+/* end menu end---------------------------------------------------------------*/
+
+/* start time menu start------------------------------------------------------*/
+
+
+
+/* start time menu end--------------------------------------------------------*/
+
+
+
+
+.maintext {
+  width: 159px;
+  height: 16px;
+  font-family: BalooThambi2;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #333333;
+  position: absolute;
+}
+
+.playaudio {
+  position: absolute;
+  left: 35px;
+  top: 128px;
+}
+
+.countforme {
+  position: absolute;
+  left: 35px;
+  top: 181px;
+}
+
+.includemessage {
+  position: absolute;
+  left: 35px;
+  top: 235px;
+}
+
+
+.subtext {
+  width: 220px;
+  height: 12px;
+  font-family: BalooThambi2;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8f8f8f;
+  position: absolute;
+}
+
+.play {
+  position: absolute;
+  left: 35px;
+  top: 145px;
+}
+
+.notify {
+  position: absolute;
+  left: 35px;
+  top: 198px;
+}
+
+.suggest {
+  position: absolute;
+  left: 35px;
+  top: 252px;
+}
+
+
+.bottomtext {
+  width: 159px;
+  height: 16px;
+  font-family: BalooThambi2;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #333333;
+  position: absolute;
+  bottom: 14px;
+  left: 16px;
+}
+
+.bottomtext .bottomtext1 {
+  font-weight: 900;
+  color: #388075;
+}
+
+/* The switch - the box around the slider */
+.audioswitch {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  border-radius: 7.5px;
+  top: 131px;
+  left: 239px;
+}
+
+/* Hide default HTML checkbox */
+.audioswitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.audioslider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 7.5px;
+}
+
+.audioslider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 7.5px;
+}
+
+input:checked + .audioslider {
+  background-color: #388075;
+}
+
+input:focus + .audioslider {
+  box-shadow: 0 0 1px #388075;
+}
+
+input:checked + .audioslider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* The switch - the box around the slider */
+.countswitch {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  border-radius: 7.5px;
+  top: 184px;
+  left: 239px;
+}
+
+/* Hide default HTML checkbox */
+.countswitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.countslider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 7.5px;
+}
+
+.countslider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 7.5px;
+}
+
+input:checked + .countslider {
+  background-color: #388075;
+}
+
+input:focus + .countslider {
+  box-shadow: 0 0 1px #388075;
+}
+
+input:checked + .countslider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+
+/* The switch - the box around the slider */
+.messageswitch {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  border-radius: 7.5px;
+  top: 237px;
+  left: 239px;
+}
+
+/* Hide default HTML checkbox */
+.messageswitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.messageslider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 7.5px;
+}
+
+.messageslider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 7.5px;
+}
+
+input:checked + .messageslider {
+  background-color: #388075;
+}
+
+input:focus + .messageslider {
+  box-shadow: 0 0 1px #388075;
+}
+
+input:checked + .messageslider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+
+/* The switch - the box around the slider */
+.apponswitch {
+  position: absolute;
+  width: 46px;
+  height: 23px;
+  border-radius: 11px;
+  bottom: 10px;
+  left: 223px;
+}
+
+/* Hide default HTML checkbox */
+.apponswitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.apponslider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 11px;
+}
+
+.apponslider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 11px;
+}
+
+input:checked + .apponslider {
+  background-color: #388075;
+}
+
+input:focus + .apponslider {
+  box-shadow: 0 0 1px #388075;
+}
+
+input:checked + .apponslider:before {
+  -webkit-transform: translateX(23px);
+  -ms-transform: translateX(23px);
+  transform: translateX(23px);
+}

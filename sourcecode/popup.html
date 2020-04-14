@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta name="viewport">
+	<title>Aleye main popup</title>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="popupstyle.css">
+	<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+	<div class="mainbox">
+		<div class="smalllogo">
+			<img src="chrome-extension://kfecdommldaijnlifjpcgadeolaimhob/assets/logo/wordmark.png" alt="">
+		</div>
+		<div class="linetop" id="linetop"></div>
+		<div class="notifymeevery" id="notifymevery">
+			<p>Notify me every...</p>
+		</div>
+		<div class="soundimage">
+			<img src="chrome-extension://kfecdommldaijnlifjpcgadeolaimhob/assets/icon_large/sound.png" alt="">
+		</div>
+		<div class="timerimage">
+			<img src="chrome-extension://kfecdommldaijnlifjpcgadeolaimhob/assets/icon_large/timer.png" alt="">
+		</div>
+		<div class="messageimage">
+			<img src="chrome-extension://kfecdommldaijnlifjpcgadeolaimhob/assets/icon_large/message.png" alt="">
+		</div>
+		<div class="selectholder">
+			<form action="#" class="customSelect">
+				<div class="select">
+					<select id="notification-period">
+						<option value=20>20 minutes</option>
+						<option value=30>30 minutes</option>
+						<option value=40>40 minutes</option>
+						<option value=50>50 minutes</option>
+						<option value=60>60 minutes</option>
+					</select>
+				</div>
+			</form>
+		</div>
+		<div class="maintext">
+			<p class="playaudio">Play Audio</p>
+			<p class="countforme">Count For Me</p>
+			<p class="includemessage">Include Message</p>
+		</div>
+		<div class="subtext">
+			<p class="play">Play a tone with the notification</p>
+			<p class="notify">Notify me again when 20 seconds are up</p>
+			<p class="suggest">Suggest mindfulness exercises</p>
+		</div>
+		<div class="linebottom" id="linebottom"></div>
+		<div class="bottomtext">
+			<p>Aleye is <span class = "bottomtext1" id="bottomtext1">ON</span></p>
+		</div>
+		<label class="audioswitch">
+			<input type="checkbox" id="enable-sound" checked>
+			<span class="audioslider"></span>
+		</label>
+		<label class="countswitch">
+			<input type="checkbox" id="enable-count" checked>
+			<span class="countslider"></span>
+		</label>
+		<label class="messageswitch">
+			<input type="checkbox" id="enable-message" checked>
+			<span class="messageslider"></span>
+		</label>
+		<label class="apponswitch">
+			<input type="checkbox" id="app-on" checked>
+			<span class="apponslider"></span>
+		</label>
+	</div>
+</body>
