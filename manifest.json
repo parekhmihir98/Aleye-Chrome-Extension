@@ -1,7 +1,7 @@
 {
    "manifest_version": 2,
    "name": "Aleye",
-   "version": "0.0.0.5",
+   "version": "0.0.0.6",
    "description": "Provides occasional and non-intrusive notifications reminders to take screen breaks and prevent eye strain.",
    "icons": { "16": "assets/logo/logo_16.png",
            "48": "assets/logo/logo_48.png",
