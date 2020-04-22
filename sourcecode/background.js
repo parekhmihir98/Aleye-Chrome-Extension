@@ -199,8 +199,9 @@ chrome.idle.onStateChanged.addListener(function(state){
     chrome.alarms.clearAll();
   }
 
-  else if (state === 'active') {
+  else if (state === 'active' && localStorage.getItem('appon') == 'true') {
     chrome.alarms.clearAll();
+    console.log('Restarting notifications after lock/idle state');
     chrome.alarms.create('recurrentnotificationalarm2', {delayInMinutes: parseFloat(localStorage.getItem('notificationperiod')), periodInMinutes: parseFloat(localStorage.getItem('notificationperiod'))});
   }
 });
