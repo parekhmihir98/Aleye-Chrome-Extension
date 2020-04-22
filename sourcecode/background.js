@@ -1,7 +1,9 @@
 chrome.runtime.onStartup.addListener(function(){
   console.log('The startup listener has fired!');
   chrome.alarms.clearAll();
-  chrome.alarms.create('recurrentnotificationalarm2', {delayInMinutes: parseFloat(localStorage.getItem('notificationperiod')), periodInMinutes: parseFloat(localStorage.getItem('notificationperiod'))});
+  if (localStorage.getItem('appon') == 'true'){
+    chrome.alarms.create('recurrentnotificationalarm2', {delayInMinutes: parseFloat(localStorage.getItem('notificationperiod')), periodInMinutes: parseFloat(localStorage.getItem('notificationperiod'))});
+  }
 });
 
 let notificationperiodmenu = document.getElementById('notification-period');
