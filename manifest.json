@@ -6,7 +6,7 @@
    "icons": { "16": "assets/logo/logo_16.png",
            "48": "assets/logo/logo_48.png",
           "128": "assets/logo/logo_128.png" },
-   "permissions": ["notifications", "storage","alarms","idle"],
+   "permissions": ["notifications","alarms","idle"],
    "browser_action": {
    "default_icon": "assets/logo/logo_128.png",
    "default_popup": "sourcecode/popup.html"},
