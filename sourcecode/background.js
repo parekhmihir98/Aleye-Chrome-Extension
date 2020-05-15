@@ -85,7 +85,45 @@ title: 'Practise joy',
 message: "What's one thing you are excited for?",
 iconUrl: 'assets/logo/logo_128.png',
 type: 'basic'
-}];
+},
+{
+title: 'Close your eyes',
+message: "Gently close your eyes and cover them with your palms",
+iconUrl: 'assets/logo/logo_128.png',
+type: 'basic'
+},
+{
+title: 'Focus shifting',
+message: "Close one eye with your hand, take a pen and slowly move it closer/further at eye level",
+iconUrl: 'assets/logo/logo_128.png',
+type: 'basic'
+},
+{
+title: 'Roll your eyes',
+message: "Without moving your head, slowly roll your eyes in a circular motion",
+iconUrl: 'assets/logo/logo_128.png',
+type: 'basic'
+},
+{
+title: 'Distance gazing',
+message: "Spend a moment gazing at a distant object",
+iconUrl: 'assets/logo/logo_128.png',
+type: 'basic'
+},
+{
+title: 'Have a short walk',
+message: "Take a moment to stand up and walk into a different room and back",
+iconUrl: 'assets/logo/logo_128.png',
+type: 'basic'
+},
+{
+title: 'Bodyweight exercises',
+message: "Use this break to plank, squat or do some press-ups",
+iconUrl: 'assets/logo/logo_128.png',
+type: 'basic'
+}
+
+];
 
 notificationitemstandard = {
 title: "Prevent eye strain",
